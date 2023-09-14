@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<style>
+
+
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    
+    body{
+       
+    background-color: lightblue;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    
+    
+    
+    }
+    .container{
+        margin-top: 50px;
+        position: relative;
+        background-color: #fff;
+        width: 100%;
+        max-width: 1000px;
+        min-height: 1000px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        box-shadow: 0 35px 55px rgba(0, 0, 0, 0.2);
+    }
+    .container .left-side{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+    
+    
+    
+    }
+    .container .right-side{
+    
+        position: relative;
+        background: #fff;
+        padding: 40px;
+        
+    }
+    .porfile-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+    .porfile-text .image-Box{
+       position: relative;
+       width: 200px;
+       height: 200px;
+       border-radius: 50%;
+       overflow: hidden;
+    }
+    .porfile-text .image-Box img{
+        
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .porfile-text h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    
+    }
+    .porfile-text h2 span{
+        font-weight: 0.8em;
+        font-weight: 300;
+    }
+    .contactInfo{
+    
+        padding: 40px;
+    }
+    .title{
+    
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+    
+    .contactInfo ul{
+        position: relative;
+    }
+    .contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin:  10px 0px;
+    cursor: pointer;
+    
+    }
+    .contactInfo ul li .icon{
+        display: inline-block;
+        width: 30px;
+        font-size: 18px;
+        color: #03a9f4;
+    
+    }
+    .contactInfo ul li span{
+        color: #fff;
+    }
+    .contactInfo.education h5{
+        color: #03a9f4;
+        font-weight: 500;
+    
+    }
+    .contactInfo h4:nth-child(2){
+        font-family: sans-serif;
+        color: #fff;
+        font-weight: 500;
+    }
+    .contactInfo.language .percent{
+    
+        position: relative;
+        width: 100%;
+        height: 6px;
+        background: rgb(0, 0, 0);
+        margin-top: 5px;
+        display: block;
+        margin-top: 5px;
+    
+    }
+    .contactInfo.language .percent div{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background: #03a9f4;
+    
+    }
+    .about{
+        margin-top: 50px;
+    
+    }
+    .about:last-child{
+        margin-bottom: 0;
+        
+    }
+    
+    
+    
+    
+    
+
+
+
+
+</style>
+<body>
+     <div class="container">
+<div class="left-side">
+
+    <div class="porfile-text">
+<div class="image-Box">
+<img src="Picsart_23-02-20_01-09-45-813.jpg" alt="">
+</div>
+<h2>Muhammad Abubakar<br> <span>Web Developer</span></h2>
+    </div>
+
+<div class="contactInfo">
+<h3 class="title"> contsct Info</h3>
+<ul>
+    <li> 
+        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+        <span class="text">03089695117</span>
+    </li>
+
+    <li> 
+        <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+        <span class="text">abubakarbwp734@gmail.com</span>
+    </li>
+    <li> 
+        <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i>
+        </span>
+        <span class="text">mybussness42@gmail.com</span>
+    </li>
+    <li> 
+        <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+        <span class="text">www.linldn.com</span>
+    </li>
+    <li> 
+        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+        <span class="text"> korangi karachi pakistan</span>
+    </li>
+</ul>
+</div>
+
+
+
+<div class="contactInfo">
+    <h3 class="title">Education</h3>
+    <ul>
+       <li>
+        <h5>2023 - 2027 </h5>
+        <h4>Bachelor Degree in Computer Science</h4>
+        <h4>Virtual University of pakistan</h4>
+       </li>
+       <li>
+        <h5>2020 - 2023 </h5>
+        <h4>Heigh Diploma Software Engineering</h4>
+        <h4>Aptech</h4>
+       </li>
+    </ul>
+    </div>
+
+
+
+    <div class="contactInfo language">
+        <h3 class="title">Languages</h3>
+        <ul>
+            
+                
+                <li>
+                    <span class="text">English</span>
+                    <span class="percent">
+                        <div style="width: 70%;"></div>
+                    </span>
+                  </li>
+                  <li>
+                  <span class="text">Urdu</span>
+                      <span class="percent">
+                        <div style="width: 90%;"></div>
+                      </span>
+                 </li>
+        </ul>
+        </div>
+</div>
+
+
+                        <!------------------ Right Side----------------------->
+
+<div class="right-side">
+<div class="about">
+<h2 class="title2">Profile</h2>
+<p>"Highly skilled web developer creating and implementing innovative web solutions for diverse clients.
+    Proficient in a variety of programming languages including
+    [Html_5,css,javascript,php,laravel,android_development,wordpress,asp.net,
+    c-sharp,bootstra-5], with expertise in [list relevant areas of expertise]. Adept at working in a fast-paced
+    environment, collaborating with cross-functional teams, and staying up-to-date with the latest industry
+    trends and technologies. Dedicated to delivering exceptional results while ensuring client satisfaction."</p>
+</div>
+
+
+
+<div class="about">
+    <h2 class="title2">Experience</h2>
+    <div class="box">
+<div class="year_company">
+    <h5>2022 - present</h5>
+    <h5> Crea-biz</h5>
+</div>
+    </div>
+     </div>
+<p></p>
+</div>   
+ 
+    </div>
+</body>
+</html>
